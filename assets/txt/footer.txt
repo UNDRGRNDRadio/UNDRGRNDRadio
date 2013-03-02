@@ -1,0 +1,37 @@
+		<div class="footer-bg"></div>
+		<div class="footer-container">
+			<div class="footer-player">
+				<script src="http://hosted.musesradioplayer.com/mrp.js"></script>
+				<script>
+					MRP.insert({
+						'url':'http://24.3.131.69:8001/listen',
+						'lang':'en',
+						'codec':'mp3',
+						'volume':100,
+						'autoplay':true,
+						'buffering':5,
+						'title':'UNDRGRND Radio',
+						'welcome':'WELCOME TO...',
+						'bgcolor':'#222222',
+						'skin':'eastanbul',
+						'width':467,
+						'height':26
+					});
+				</script>
+			</div>
+			<div class="footer-social">
+				<ul>
+					<li><a href="/assets/m3u/UNDRGRNDRadio.m3u" id="m3u" title="Listen using iTunes or WMP"><img src="/assets/img/social/itunes.png" alt="Play in iTunes" /></a></li>
+					<li><a href="https://facebook.com/pages/Undrgrnd-Radio/178806132205119" target="_blank" id="facebook" title="Like us on Facebook"><img src="/assets/img/social/facebook.png" alt="Facebook" /></a></li>
+					<li><a href="https://twitter.com/undrgrnd_radio" target="_blank" id="twitter" title="Follow us on Twitter"><img src="/assets/img/social/twitter.png" alt="Twitter" /></a></li>
+					<li><a href="#" id="cal" title="Weekly Schedule" data-toggle="popover" data-placement="top" data-content="<iframe src='https://www.google.com/calendar/embed?title=UNDRGRND%20Radio%20Timeslots&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=300&amp;wkst=1&amp;hl=en&amp;bgcolor=%23FFFFFF&amp;src=7s05m7si9eklq95u5vj4g4rprs%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FNew_York' style='border:0; width:550px; height:300px;' frameborder='0' scrolling='no'></iframe>"><img src="/assets/img/social/calendar.png" alt="View our Weekly Schedule" /></a></li>
+					<li><a href="#" id="downloads" title="Downloads" data-toggle="popover" data-placement="top" data-content="<iframe src='/downloads.html' style='border:0; width:145px; height:300px;' frameborder='0' scrolling='yes'></iframe>"><img src="/assets/img/social/downloads.png" alt="Downloads" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<script>
+			var _gaq=[['_setAccount','UA-591254-12'],['_trackPageview']];
+			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+			s.parentNode.insertBefore(g,s)}(document,'script'));
+		</script>

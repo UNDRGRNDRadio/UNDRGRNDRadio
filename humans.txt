@@ -1,0 +1,17 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* ME */
+	Name: Jonathan Graft
+	Site: http://Radio.JonathanGraft.com
+	Contact: jonathangraft [at] me.com
+	Twitter: @FlyersPh9
+	Location: Bellevue, Pennsylvania USA
+
+/* SITE */
+	Last update: 2013/02/09
+	Language: English
+	Standards: HTML5, CSS3, JS, PHP, Flash
+	Components: jQuery, Twitter Bootstrap, Muses Radio Player, Chatr, ShareThis
+	Software: Photoshop CS6, Coda 2, Smaller, ImageOptim, NiceCast, X Icon Editor

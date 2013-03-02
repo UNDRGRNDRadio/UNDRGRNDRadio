@@ -1,0 +1,3 @@
+		<div class="header-bg"></div>
+		<div class="live"><a>Broadcasting LIVE NOW!</a></div>
+		<div class="logo"></div>

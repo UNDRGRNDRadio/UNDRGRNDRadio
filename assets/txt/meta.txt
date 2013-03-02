@@ -1,0 +1,20 @@
+	<meta name="og:site_name" content="UNDRGRND Radio">
+	<meta name="og:image" content="http://Radio.JonathanGraft.com/favicon.png">
+	<meta name="og:description" content="UNDRGRND Radio is the primary online hard dance radio station for listeners, by listeners.">
+	<meta name="author" content="Jonathan Graft">
+	<meta name="description" content="UNDRGRND Radio is the primary online hard dance radio station for listeners, by listeners.">
+	<meta name="application-name" content="UNDRGRND Radio Video Feed">
+	<meta name="msapplication-TileColor" content="#333333">
+	<meta name="msapplication-TileImage" content="/tileicon.png">
+	<link rel="author" href="/humans.txt">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/apple/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/apple/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/apple/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="/assets/img/apple/apple-touch-icon-57-precomposed.png">
+	<link rel="icon" href="/favicon.png">
+	<link rel="publisher" href="https://plus.google.com/113351018978771685125">
+	<!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
+	<link rel="stylesheet" href="/assets/css/bootstrap.css">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Iceland">
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->

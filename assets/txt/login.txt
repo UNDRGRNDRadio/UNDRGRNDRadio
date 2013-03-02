@@ -1,0 +1,27 @@
+<p>Create a username and login. A password is only needed for administrators.</p><br /><h1>Chat Login</h1>
+<p>
+	<? 
+		if ( $_GET['alert'] == 1 ) {
+			echo "That username already exists.<br>";
+		} else if ( $_GET['alert'] == 2 ) {
+			echo "The username may not contain spaces or html, and must be between 1 and 20 characters in length.<br>"; 
+		} else if ( $_GET['alert'] == 3 ) {
+			echo "If you're the administrator, please enter the correct password. Otherwise, enter another name.<br>";
+		}
+	?>
+</p>
+<div class="well" style="max-width:300px; margin:0 auto;">
+	<form name="form1" method="post" action="/chat/login.php" class="form-horizontal">
+		<div class="input-prepend">
+			<span class="add-on"><i class="icon-user"></i></span>
+			<input class="span3" id="prependedInput" type="text" placeholder="Username" name="u"><br />
+		</div>
+		<div class="input-prepend">
+			<span class="add-on"><i class="icon-lock"></i></span>
+			<input class="span3" id="prependedInput" id="p" type="password" placeholder="Password (admin only)" name="p">
+		</div><br />
+		<input type="submit" name="Submit" class="btn btn-large" value="Sign In" style="margin-top:10px;">					
+	</form>
+	<hr />
+	<p><small><span title="Copyright">&copy;</span> <?php echo date("Y"); ?> UNDRGRND Radio</small></p>
+</div>
