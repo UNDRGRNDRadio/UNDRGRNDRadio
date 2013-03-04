@@ -2,16 +2,43 @@
 /* humanstxt.org */
 
 
-/* ME */
+/* WHO WE ARE */
 	Name: Jonathan Graft
-	Site: http://Radio.JonathanGraft.com
-	Contact: jonathangraft [at] me.com
+	Position: Founder, Designer, Front End Developer
+	Site: http://JonathanGraft.com
+	Contact: JonG@UNDRGRNDRadio.com
 	Twitter: @FlyersPh9
 	Location: Bellevue, Pennsylvania USA
 
+	Name: Adam Sargent
+	Position: Developer
+	Site: http://AdamCSargent.com
+	Contact: AdamS@UNDRGRNDRadio.com
+	Location: Mars, Pennsylvania USA
+
+	Name: Adam Weiner
+	Position: Developer
+	Site: http://AdamSWeiner.com
+	Contact: AdamW@UNDRGRNDRadio.com
+	Twitter: @Admonic
+	Location: College Park, Maryland USA
+
+	Name: Cori Shirk
+	Position: SEO
+	Site: 
+	Contact: CoriS@UNDRGRNDRadio.com
+	Twitter: @CoriShirk
+	Location: Philadelphia, Pennsylvania USA
+
+	Name: Rob Gordon
+	Position: Developer
+	Site: 
+	Contact: RobG@UNDRGRNDRadio.com
+	Location: Dauphin, Pennsylvania USA
+
 /* SITE */
-	Last update: 2013/02/09
+	Last update: March 3rd, 2013
 	Language: English
 	Standards: HTML5, CSS3, JS, PHP, Flash
-	Components: jQuery, Twitter Bootstrap, Muses Radio Player, Chatr, ShareThis
+	Components: jQuery, Twitter Bootstrap, Muses Radio Player, Chatr, ShareThis, uStream
 	Software: Photoshop CS6, Coda 2, Smaller, ImageOptim, NiceCast, X Icon Editor

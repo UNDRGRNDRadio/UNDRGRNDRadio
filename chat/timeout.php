@@ -1,8 +1,4 @@
 <?
-// Chatr - Super-simple chat for your site
-//   (c) 2006 David Sterry
-//   Distributed under the BSD license
-//   Link: http://www.sterryit.com/chatr
 
 include("config.php");
 

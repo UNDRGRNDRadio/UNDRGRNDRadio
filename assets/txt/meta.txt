@@ -1,9 +1,9 @@
 	<meta name="og:site_name" content="UNDRGRND Radio">
-	<meta name="og:image" content="http://Radio.JonathanGraft.com/favicon.png">
+	<meta name="og:image" content="http://UNDRGRNDRadio.com/favicon.png">
 	<meta name="og:description" content="UNDRGRND Radio is the primary online hard dance radio station for listeners, by listeners.">
 	<meta name="author" content="Jonathan Graft">
 	<meta name="description" content="UNDRGRND Radio is the primary online hard dance radio station for listeners, by listeners.">
-	<meta name="application-name" content="UNDRGRND Radio Video Feed">
+	<meta name="application-name" content="UNDRGRND Radio">
 	<meta name="msapplication-TileColor" content="#333333">
 	<meta name="msapplication-TileImage" content="/tileicon.png">
 	<link rel="author" href="/humans.txt">

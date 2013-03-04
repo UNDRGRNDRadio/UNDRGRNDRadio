@@ -7,6 +7,11 @@ Disallow: 500.shtml
 Disallow: 500.php
 Disallow: /assets/
 Disallow: /cgi-bin/
-Disallow: construction.php
+Disallow: /chat/
+Disallow: /dance/
+Disallow: /dev/
+Disallow: /djs/
+Disallow: /shoutcast/
 Disallow: error_log
 Disallow: humans.txt
+Disallow: README.md

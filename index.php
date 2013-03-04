@@ -5,7 +5,7 @@
 	<title>Login - UNDRGRND Radio</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta name="og:title" content="Login">
-	<meta name="og:url" content="http://Radio.JonathanGraft.com">
+	<meta name="og:url" content="http://UNDRGRNDRadio.com">
 <?php echo file_get_contents('assets/txt/meta.txt'); ?>
 </head>
 <body>
@@ -13,7 +13,17 @@
 <?php echo file_get_contents('assets/txt/header.txt'); ?>
 	</header>
 	<div class="content">
-		<p>Choose a username and login. A password is only required for administrators.</p><br />
+		<p id="intro">Choose a username and login. A password is only required for administrators.</p><br />
+		<p id="error-msg"><?
+			// errors 
+			if ( $_GET['alert'] == 1 ) {
+			  echo "That username already exists.<br>";
+			} else if ( $_GET['alert'] == 2 ) {
+			  echo "The username may not contain spaces or html, and must be between 1 and 20 characters in length.<br>"; 
+			} else if ( $_GET['alert'] == 3 ) {
+			  echo "If you're the administator, please enter the correct password. Otherwise, enter another name.<br>";
+			}
+		?></p>
 		<h1>Chat Login</h1>
 		<div class="well login-well">
 			<form name="form1" method="post" action="/chat/login.php" class="form-horizontal">

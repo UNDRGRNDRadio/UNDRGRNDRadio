@@ -360,3 +360,19 @@
 <span class="msg-time">[01:09:53 AM]</span>  <span class="msg-tex">User%20k%20timed%20out</span>
 1
 <span class="msg-time">[01:55:23 AM]</span>  <span class="msg-tex">User%20JohnnyHarderstyles%20timed%20out</span>
+1
+<span class="msg-time">[05:37:30 PM]</span>  <span class="msg-tex">Welcome%20Sarge%20to%20the%20chat%20room</span>
+1
+<span class="msg-time">[05:37:31 PM]</span>  <span class="msg-tex">User%20JohnnyHardstyle%20timed%20out</span>
+1
+<span class="msg-time">[05:38:04 PM]</span>  <span class="msg-tex">Welcome%20adam%20to%20the%20chat%20room</span>
+1
+<span class="msg-time">[05:38:41 PM]</span>  <span class="msg-tex">User%20Sarge%20timed%20out</span>
+1
+<span class="msg-time">[07:22:01 PM]</span>  <span class="msg-tex">Welcome test to the chat room</span>
+1
+<span class="msg-time">[07:22:02 PM]</span>  <span class="msg-tex">User JohnnyHardstyle timed out</span>
+1
+<span class="msg-time">[07:29:25 PM]</span>  <span class="msg-tex">Welcome alpha to the chat room</span>
+1
+<span class="msg-time">[07:30:52 PM]</span>  <span class="msg-tex">User alpha timed out</span>

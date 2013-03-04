@@ -94,7 +94,7 @@ $text=str_replace(":star:","<img src='/assets/img/smile/star.png' align='absmidd
 $text=str_replace(":*:","<img src='/assets/img/smile/star.png' align='absmiddle' alt='Star'>",$text);
 
 //Curse Words
-$curse_words = array('cock', 'cunt', 'piss', 'shit', 'fuck', 'faggot', 'fag', 'bastard');
+$curse_words = array('cock', 'cunt', 'fuck', 'faggot', 'fag');
 foreach ($curse_words as $curse) {
 	$stars = '';
 	for ($i = 0; $i < strlen($curse); $i++)
