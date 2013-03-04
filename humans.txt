@@ -32,7 +32,7 @@
 
 	Name: Rob Gordon
 	Position: Developer
-	Site: 
+	Site: http://rob-gordon.info
 	Contact: RobG@UNDRGRNDRadio.com
 	Location: Dauphin, Pennsylvania USA
 

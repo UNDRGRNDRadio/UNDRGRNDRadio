@@ -37,17 +37,6 @@
 				</div><br />
 				<input type="submit" name="Submit" class="btn btn-large btn-inverse" value="Sign In" style="margin-top:10px;">					
 			</form>
-			<p>  
-				<?
-					if ( $_GET['alert'] == 1 ) {
-						echo "That username already exists.<br>";
-					} else if ( $_GET['alert'] == 2 ) {
-						echo "The username may not contain spaces or html, and must be between 1 and 20 characters in length.<br>"; 
-					} else if ( $_GET['alert'] == 3 ) {
-						echo "If you're the administrator, please enter the correct password. Otherwise, enter another name.<br>";
-					}
-				?> 
-			</p>
 			<hr />
 			<p>
 				<small>
