@@ -23,7 +23,7 @@
 	}
 ?> 
 </p>
-<form name="form1" method="post" action="/chat/login.php">
+<form name="form1" method="post" action="chat/login.php">
   <table width="397" border="0" cellspacing="0" cellpadding="0">
     <tr>
       <td width="229">username:</td>
