@@ -6,12 +6,14 @@ Disallow: 404.shtml
 Disallow: 500.shtml
 Disallow: 500.php
 Disallow: /assets/
+Disallow: /beta/
 Disallow: /cgi-bin/
-Disallow: /chat/
-Disallow: /dance/
+Disallow: /extras/
 Disallow: /dev/
 Disallow: /djs/
-Disallow: /shoutcast/
 Disallow: error_log
 Disallow: humans.txt
 Disallow: README.md
+Disallow: b2788.txt
+Disallow: p2788.txt
+Disallow: u2788.txt

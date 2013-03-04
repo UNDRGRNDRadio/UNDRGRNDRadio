@@ -6,8 +6,6 @@ UNDRGRND Radio is the primary online hard dance radio station for listeners, by 
 Known Problems
 --------------------
 
-- I don't think the PHP is displaying errors properly on index.php
-
 - Text box is not responsive on /chat/chat.php
 
 - Extra smileys will not insert into text box on /chat/chat.php

@@ -4,7 +4,7 @@
 				<script src="http://hosted.musesradioplayer.com/mrp.js"></script>
 				<script>
 					MRP.insert({
-						'url':'http://24.3.131.69:8001/listen',
+						'url':'http://listen.radionomy.com/gabberfm',
 						'lang':'en',
 						'codec':'mp3',
 						'volume':100,

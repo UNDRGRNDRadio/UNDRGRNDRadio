@@ -376,3 +376,15 @@
 <span class="msg-time">[07:29:25 PM]</span>  <span class="msg-tex">Welcome alpha to the chat room</span>
 1
 <span class="msg-time">[07:30:52 PM]</span>  <span class="msg-tex">User alpha timed out</span>
+0
+<span class="msg-time">[09:29:06 PM]</span> <span class="msg-user">&lt;Jon&gt;</span> <span class="msg-tex">Herro?</span>
+1
+<span class="msg-time">[09:34:44 PM]</span>  <span class="msg-tex">Welcome</span>
+0
+<span class="msg-time">[09:35:02 PM]</span> <span class="msg-user">&lt;Yes&gt;</span> <span class="msg-tex">wut</span>
+1
+<span class="msg-time">[09:35:45 PM]</span>  <span class="msg-tex">User johnny timed out</span>
+1
+<span class="msg-time">[09:43:57 PM]</span>  <span class="msg-tex">Welcome</span>
+1
+<span class="msg-time">[09:45:15 PM]</span>  <span class="msg-tex">User Jon timed out</span>

@@ -51,7 +51,7 @@ if( strpos($file,",".$userid) === false ) {
     fwrite($fp, "\n".$uid.",".$userid);
     @fclose($fp);
   //}
-  $temp = @fopen($path_to_chat."posttext.php?u=".$admin_id."&t=Welcome%20".$userid."%20to%20the%20chat%20room","r");
+  $temp = @fopen($path_to_chat."posttext.php?u=".$admin_id."&t=Welcome ".$userid." to the chatroom","r");
   @fclose($temp);
   header("location: chat.php?".$uid);	
 }

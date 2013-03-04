@@ -5,8 +5,8 @@
 	<title>Public Chat Room - UNDRGRND Radio</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta name="og:title" content="Public Chat Room">
-	<meta name="og:url" content="http://UNDRGRNDRadio.com/chat/chat.php">
-<?php echo file_get_contents('../assets/txt/meta.txt'); ?>
+	<meta name="og:url" content="http://UNDRGRNDRadio.com/chat.php">
+<?php echo file_get_contents('assets/txt/meta.txt'); ?>
 	<script src="md4.js"></script>
 	<script src="chatclient.js"></script>
 	<script>
@@ -21,7 +21,7 @@
 </head>
 <body>
 	<header>
-<?php echo file_get_contents('../assets/txt/header.txt'); ?>
+<?php echo file_get_contents('assets/txt/header.txt'); ?>
 	</header>
 	<div class="content">
 		<div class="well chat-well">
@@ -72,7 +72,7 @@
 		</div>
 	</div>	
 	<footer>
-<?php echo file_get_contents('../assets/txt/footer.txt'); ?>
+<?php echo file_get_contents('assets/txt/footer.txt'); ?>
 	</footer>
 
 	<script src="/assets/js/bootstrap.min.js"></script>
