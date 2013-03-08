@@ -7,18 +7,18 @@
 	<meta name="og:title" content="Release Notes">
 	<meta name="og:url" content="http://UNDRGRNDRadio.com/releasenotes.html">
 <?php echo file_get_contents('assets/txt/meta.txt'); ?>
+	<link rel="stylesheet" href="/assets/css/icomoon.css">
+	<!--[if lte IE 7]><script src="/assets/js/lte-ie7.js"></script><![endif]-->
 	<style>
-		body { background: #F5F5F5; }
+		body { background: #F5F5F5; font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 		.hide { display: none; }
 		h2 {
 			font-size: 24px;
-			font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 			font-weight: normal;
 			margin: 0;
 		}
 		.release ul {
 			font-size: 12px;
-			font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 			font-weight: normal;
 			line-height: 17px;
 			margin: 1em 0;
@@ -30,7 +30,6 @@
 			}
 		h3 {
 			font-size: 12px;
-			font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 			font-weight: normal;
 			line-height: 14px;
 			color: #888;
@@ -38,19 +37,61 @@
 		}
 		h4 {
 			font-size: 12px;
-			font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 			font-weight: bold;
 			line-height: 14px;
 			color: #000;
 		}
+		::selection {
+			text-shadow: none;
+			background: #222;
+			color: #fff;
+		}
+		::selection:window-inactive {
+			background: #ff6600;
+		}
+		::-moz-selection {
+			text-shadow: none;
+			background: #222;
+			color: #fff;
+		}
+
 	</style>
 </head>
 <body>
 	<h1 class="hide">UNDRGRND Radio Release Notes</h1>
 
-	<!-- 0.9.2 -->
+	<!-- 1.0.0 beta -->
+	<div class="release" id="v1_0_0">
+		<h2>1.0.0 <span title="beta">&beta;</span></h2>
+		<h3>Released on Mar 6th 2013</h3>
+		<h4>Improvements:</h4>
+		<ul>
+			<li>Replaced the entire chat system (from <a href="http://www.sterryit.com/chatr/" target="_blank">Chatr</a> to <a href="http://tlk.io/" target="_blank">Tlk.io</a>)</li>
+			<li>Replaced the entire audio streaming system (from <a href="http://www.musesradioplayer.com/" target="_blank">Muses Radio Player</a> to <a href="http://mediaelementjs.com/" target="_blank">MediaElement.js</a>)</li>
+		</ul>
+		<h4>Newly Added:</h4>
+		<ul>
+			<li>Twitter chat integration</li>
+			<li>Popout radio app seen <a href="/player/index.html" target="_blank">here</a></li>
+			<li>Sound when a message is received in chat</li>
+			<li>OSX Mountain Lion Notification Bar support</li>
+			<li>Image support in chat</li>
+			<li>Admin's IMs have a right colored bar in chat</li>
+			<li>Icon fonts</li>
+			<li>Disabled right click where unnecessary</li>
+		</ul>
+		<h4>Removed:</h4>
+		<ul>
+			<li>Footer bar</li>
+			<li>Smiley faces in chat (may return sometime in the future)</li>
+			<li>ShareThis plugin</li>
+		</ul>
+
+	</div>
+
+	<!-- 0.9.2 beta -->
 	<div class="release" id="v0_9_2">
-		<h2>0.9.2 beta</h2>
+		<h2>0.9.2 <span title="beta">&beta;</span></h2>
 		<h3>Released on Feb 27th 2013</h3>
 		<h4>Improvements:</h4>
 		<ul>
@@ -71,12 +112,24 @@
 	<!-- 0.9.0 beta -->
 	<div class="release" id="v0_9_0">
 	
-		<h2>0.9.0 beta</h2>
+		<h2>0.9.0 <span title="beta">&beta;</span></h2>
 		<h3>Released on Feb 9th 2013</h3>
 		<ul>
-			<li>First release.</li>
+			<li>First release</li>
 		</ul>
 	</div>
+	<footer>
+		<p style="text-align:center;">
+			Hover over an icon below for more info...<br>
+			<span aria-hidden="true" class="icon-html5" title="Coded using HTML5"></span>
+			<span aria-hidden="true" class="icon-css3" title="Coded using CSS3"></span>
+			<span aria-hidden="true" class="icon-chrome" title="Version X.X or higher"></span>
+			<span aria-hidden="true" class="icon-firefox" title="Version X.X or higher"></span>
+			<span aria-hidden="true" class="icon-IE" title="Version X.X or higher"></span>
+			<span aria-hidden="true" class="icon-opera" title="Version X.X or higher"></span>
+			<span aria-hidden="true" class="icon-safari" title="Version X.X or higher"></span>
+		</p>
+	</footer>
 	<script>
 		var _gaq=[['_setAccount','UA-591254-12'],['_trackPageview']];
 		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

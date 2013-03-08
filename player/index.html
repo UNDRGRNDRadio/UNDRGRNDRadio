@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Radio Player - UNDRGRND Radio</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="og:title" content="Radio Player">
+	<meta name="og:url" content="http://UNDRGRNDRadio.com/player/">
+	<meta name="og:site_name" content="UNDRGRND Radio">
+	<meta name="og:image" content="http://UNDRGRNDRadio.com/favicon.png">
+	<meta name="og:description" content="UNDRGRND Radio is the primary online hard dance radio station for listeners, by listeners.">
+	<meta name="author" content="Jonathan Graft">
+	<meta name="description" content="UNDRGRND Radio is the primary online hard dance radio station for listeners, by listeners.">
+	<meta name="application-name" content="UNDRGRND Radio">
+	<meta name="msapplication-TileColor" content="#333333">
+	<meta name="msapplication-TileImage" content="/tileicon.png">
+	<link rel="author" href="/humans.txt">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/apple/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/apple/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/apple/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="/assets/img/apple/apple-touch-icon-57-precomposed.png">
+	<link rel="icon" href="/favicon.png">
+	<link rel="publisher" href="https://plus.google.com/113351018978771685125">
+	<!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="/assets/js/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="/assets/css/theme-player.css">
+	<link rel="stylesheet" href="/assets/css/icomoon.css">
+	<!--[if lte IE 7]><script src="/assets/js/lte-ie7.js"></script><![endif]-->
+	<meta name="robots" content="noindex,follow" />
+</head>
+<body>
+	<div class="audio-player">
+		<h1>Johnny Hardstyle</h1>
+		<div class="cover"></div>
+		<ul class="social">
+			<li><a title="View Johnny Hardstyle's Facebook" href="https://facebook.com/DJ.Johnny.Hardstyle" target="_blank"><span aria-hidden="true" class="icon-facebook"></span></a></li>
+			<li><a title="View my personal Twitter" href="https://twitter.com/FlyersPh9" target="_blank"><span aria-hidden="true" class="icon-twitter"></span></a></li>
+			<li><a title="View my personal Google+" href="https://plus.google.com/113351018978771685125/" target="_blank"><span aria-hidden="true" class="icon-google-plus"></span></a></li>
+			<li><a title="View Johnny Hardstyle's Soundcloud" href="https://soundcloud.com/johnnyhardstyle" target="_blank"><span aria-hidden="true" class="icon-soundcloud"></span></a></li>
+			<li><a title="Email Johnny Hardstyle" href="mailto:JohnnyHardstyle@undrgrndradio.com"><span aria-hidden="true" class="icon-mail"></span></a></li>
+			<li><a title="View my personal website" href="http://JonathanGraft.com" target="_blank"><span aria-hidden="true" class="icon-earth"></span></a></li>				
+		</ul>
+		<audio id="audio-player" src="http://listen.radionomy.com/gabberfm" type="audio/mp3" controls="controls"></audio>
+		<p class="tweet"><a href="https://twitter.com/UNDRGRND_RADIO" target="_blank" id="twitter-username">@UNDRGRND_Radio</a> "<span id="tweet"></span>"</p>
+		<a class="closeout" href="/player/closed.html" title="Close the Radio Player">&times;</a>
+		<a class="newwindow" href="/player/" target="_blank" title="Open the Radio Player in a seperate window"><span aria-hidden="true" class="icon-expand"></span></a>		
+	</div>
+
+	<script>
+		$(document).ready(function() {
+			$('#audio-player').mediaelementplayer({
+				alwaysShowControls: true,
+				features: ['playpause','volume'],
+				audioVolume: 'horizontal',
+				audioHeight: 120
+			});
+		});
+	</script>
+	<script>$.getJSON("https://api.twitter.com/1/statuses/user_timeline/undrgrnd_radio.json?count=5&include_rts=5&callback=?", function(data) {$("#tweet").html(data[0].text);});</script>
+	<script>
+		var message="";
+		function clickIE() {if (document.all) {(message);return false;}}
+		function clickNS(e) {if 
+		(document.layers||(document.getElementById&&!document.all)) {
+		if (e.which==2||e.which==3) {(message);return false;}}}
+		if (document.layers) 
+		{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+		else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+		document.oncontextmenu=new Function("return false")
+	</script>
+</body></html>

@@ -1,0 +1,1 @@
+[07-Mar-2013 22:16:15 America/Denver] PHP Warning:  file_get_contents(./assets/streams/johnnyhardstyle.txt): failed to open stream: No such file or directory in /home2/jonathj3/public_html/radio/player/index.php on line 34

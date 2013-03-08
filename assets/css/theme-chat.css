@@ -1,0 +1,19 @@
+.header, .theme-picker {display: none !important;}
+::selection {
+	text-shadow: none;
+	background: #222;
+	color: #fff;
+}
+::selection:window-inactive {
+	background: #ff6600;
+}
+::-moz-selection {
+	text-shadow: none;
+	background: #222;
+	color: #fff;
+}
+
+/* ADMINS */
+
+/* JohnnyHardstyle */
+.author_7a2966 {border-right: 4px solid #ffcc00;}

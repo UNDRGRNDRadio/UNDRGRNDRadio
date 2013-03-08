@@ -25,20 +25,19 @@
 
 	Name: Cori Shirk
 	Position: SEO
-	Site: 
 	Contact: CoriS@UNDRGRNDRadio.com
 	Twitter: @CoriShirk
 	Location: Philadelphia, Pennsylvania USA
 
 	Name: Rob Gordon
 	Position: Developer
-	Site: http://rob-gordon.info
+	Site: http://Rob-Gordon.info
 	Contact: RobG@UNDRGRNDRadio.com
 	Location: Dauphin, Pennsylvania USA
 
 /* SITE */
-	Last update: March 3rd, 2013
+	Last update: March 6th, 2013
 	Language: English
-	Standards: HTML5, CSS3, JS, PHP, Flash
-	Components: jQuery, Twitter Bootstrap, Muses Radio Player, Chatr, ShareThis, uStream
+	Standards: HTML5, CSS3, JS, PHP
+	Components: jQuery, Twitter Bootstrap, MediaElement.js, Tlk.io, uStream, Icomoon
 	Software: Photoshop CS6, Coda 2, Smaller, ImageOptim, NiceCast, X Icon Editor

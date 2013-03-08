@@ -1,0 +1,11 @@
+		<h1>Johnny Hardstyle</h1>
+		<div class="cover"></div>
+		<ul class="social">
+			<li><a title="View Johnny Hardstyle's Facebook" href="https://facebook.com/DJ.Johnny.Hardstyle" target="_blank"><span aria-hidden="true" class="icon-facebook"></span></a></li>
+			<li><a title="View my personal Twitter" href="https://twitter.com/FlyersPh9" target="_blank"><span aria-hidden="true" class="icon-twitter"></span></a></li>
+			<li><a title="View my personal Google+" href="https://plus.google.com/113351018978771685125/" target="_blank"><span aria-hidden="true" class="icon-google-plus"></span></a></li>
+			<li><a title="View Johnny Hardstyle's Soundcloud" href="https://soundcloud.com/johnnyhardstyle" target="_blank"><span aria-hidden="true" class="icon-soundcloud"></span></a></li>
+			<li><a title="Email Johnny Hardstyle" href="mailto:JohnnyHardstyle@undrgrndradio.com"><span aria-hidden="true" class="icon-mail"></span></a></li>
+			<li><a title="View my personal website" href="http://JonathanGraft.com" target="_blank"><span aria-hidden="true" class="icon-earth"></span></a></li>				
+		</ul>
+		<audio id="audio-player" src="http://listen.radionomy.com/gabberfm" type="audio/mp3" controls="controls"></audio>

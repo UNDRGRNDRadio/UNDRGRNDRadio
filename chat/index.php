@@ -2,10 +2,10 @@
 <html lang="en-US"><head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>UNDRGRND Radio</title>
+	<title>Chat - UNDRGRND Radio</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<meta name="og:title" content="UNDRGRND Radio">
-	<meta name="og:url" content="http://UNDRGRNDRadio.com">
+	<meta name="og:title" content="Chat">
+	<meta name="og:url" content="http://UNDRGRNDRadio.com/chat/">
 	<meta name="og:site_name" content="UNDRGRND Radio">
 	<meta name="og:image" content="http://UNDRGRNDRadio.com/favicon.png">
 	<meta name="og:description" content="UNDRGRND Radio is the primary online hard dance radio station for listeners, by listeners.">
@@ -40,8 +40,8 @@
 					</button>
 					<div class="nav-collapse collapse">
 						<ul class="nav">
-							<li class="active"><a title="Home"><span aria-hidden="true" class="icon-home"></span></a></li>
-							<li><a href="/chat/" title="Chatroom"><span aria-hidden="true" class="icon-bubbles"></span></a></li>
+							<li><a href="/" title="Home"><span aria-hidden="true" class="icon-home"></span></a></li>
+							<li class="active"><a title="Chatroom"><span aria-hidden="true" class="icon-bubbles"></span></a></li>
 						</ul>
 						<ul class="nav pull-right">
 							<li class="dropdown">
@@ -71,21 +71,15 @@
 		<div class="logo"></div>
 	</header>
 	<div class="container">
-		<div class="well chat" style="text-align:center;">
-			<h1>UNDRGRND Radio Homepage</h1>
-			<h2>Coming Soon!</h2>
-			<div class="under-construction" title="Under Construction"></div>
-			<p>Check our social media for information on weekly live DJ broadcasts.<br>
-			<a title="Facebook" href="https://facebook.com/pages/Undrgrnd-Radio/178806132205119" target="_blank"><span aria-hidden="true" class="icon-facebook"></span></a>
-			<a title="Twitter" href="https://twitter.com/undrgrnd_radio" target="_blank"><span aria-hidden="true" class="icon-twitter"></span></a>
-			<a title="Google+" href="https://plus.google.com/114568745829090552832" target="_blank"><span aria-hidden="true" class="icon-google-plus"></span></a><br>
-			Are you a DJ?  Contact us at <a href="mailto:info@UNDRGRNDRadio.com"><span aria-hidden="true" class="icon-mail"></span> info@UNDRGRNDRadio.com</a>, we have open slots available!<br><br>
-			<a class="btn btn-large btn-inverse" href="/chat/"><span  style="bottom:3px; position:relative;" aria-hidden="true" class="icon-bubbles"></span>&nbsp;&nbsp;Join the Chatroom</a> or <a class="btn btn-large btn-inverse" href="/player/" target="_blank"><span style="bottom:3px; position:relative;" aria-hidden="true" class="icon-music"></span>&nbsp;&nbsp;Launch the Radio Player</a></p>
+		<div class="well chat">
+			<iframe class="radioapp" src="/player/index.html" frameborder='0' scrolling='no'></iframe>
+			<div id="tlkio" data-channel="UNDRGRNDRadio" data-theme="http://undrgrndradio.com/assets/css/theme-chat.css"></div>
+			<script async src="http://tlk.io/embed.js" type="text/javascript"></script>
 		</div>
 	</div>
 	<footer>
 		<p class="muted credit"><span title="Copyright">&copy;</span> <a href="/">UNDRGRNDRadio.com</a> <?php echo date("Y"); ?></p>
-		<a href="/releasenotes.html" target="_blank">Version 1.0.0 <span title="Beta">&beta;</span></a>
+		<!-- <a href="/releasenotes.html" target="_blank">Version 1.0.0 <span title="Beta">&beta;</span></a> -->
 	</footer>
 
 	<script src="/assets/js/bootstrap.min.js"></script>

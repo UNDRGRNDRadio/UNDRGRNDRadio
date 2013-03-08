@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Radio Player Closed - UNDRGRND Radio</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="og:title" content="Login">
+	<meta name="og:url" content="http://UNDRGRNDRadio.com">
+	<meta name="og:site_name" content="UNDRGRND Radio">
+	<meta name="og:image" content="http://UNDRGRNDRadio.com/favicon.png">
+	<meta name="og:description" content="UNDRGRND Radio is the primary online hard dance radio station for listeners, by listeners.">
+	<meta name="author" content="Jonathan Graft">
+	<meta name="description" content="UNDRGRND Radio is the primary online hard dance radio station for listeners, by listeners.">
+	<meta name="application-name" content="UNDRGRND Radio">
+	<meta name="msapplication-TileColor" content="#333333">
+	<meta name="msapplication-TileImage" content="/tileicon.png">
+	<link rel="author" href="/humans.txt">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/apple/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/apple/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/apple/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="/assets/img/apple/apple-touch-icon-57-precomposed.png">
+	<link rel="icon" href="/favicon.png">
+	<link rel="publisher" href="https://plus.google.com/113351018978771685125">
+	<!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
+	<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<meta name="robots" content="noindex,follow" />
+	<style>
+		body {text-decoration: center;}
+		.background {
+			background: #4c4e5a;
+			background: -webkit-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+			background: -moz-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+			background: -o-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+			background: -ms-linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+			background: linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
+			-webkit-border-radius: 0 0 3px 3px;
+			-moz-border-radius: 0 0 3px 3px;
+			border-radius: 0 0 3px 3px;
+			height: 114px;
+			width: 100%;
+			position: absolute;
+			top: 0;
+		}
+		h3 {
+			color: #ececec;
+			text-shadow: 1px 1px 1px rgba(0,0,0, .5);
+			cursor: default;
+		}
+		::selection {
+			background: transparent;
+		}
+		::selection:window-inactive {
+			background: transparent;
+		}
+		::-moz-selection {
+			background: transparent;
+		}
+	</style>
+</head>
+<body style="text-align:center;">
+	<div class="background">
+	<h3>Listen to UNDRGRND Radio</h3>
+	<p><a href="/player/index.html" class="btn btn-large btn-warning">UNDRGRND Radio App</a> or <a href="/assets/m3u/UNDRGRNDRadio.m3u" class="btn btn-large btn-warning">iTunes / Windows Media Player</a></p>
+	</div>
+	<script>
+		var message="";
+		function clickIE() {if (document.all) {(message);return false;}}
+		function clickNS(e) {if 
+		(document.layers||(document.getElementById&&!document.all)) {
+		if (e.which==2||e.which==3) {(message);return false;}}}
+		if (document.layers) 
+		{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+		else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+		document.oncontextmenu=new Function("return false")
+	</script>
+</body></html>

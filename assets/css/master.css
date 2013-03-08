@@ -1,0 +1,86 @@
+/* TEMPORARY */
+.under-construction {
+	background:url('/assets/img/under-construction.png') no-repeat;
+	width: 350px;
+	height: 350px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+/* GLOBALS */
+body {
+	background: #333 url('/assets/img/bg.png') no-repeat center top;
+}
+footer {
+	text-align: center;
+}
+a {
+	color: #ffcc00;
+}
+a:hover {
+	text-decoration: none;
+	color: #ff9a00;
+}
+::selection {
+	background: transparent;
+}
+::selection:window-inactive {
+	background: transparent;
+}
+::-moz-selection {
+	background: transparent;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+	background-color: #ffcc00;
+	background-image: none;
+	color: #333;
+}
+.logo {
+	background: url('/assets/img/logo.png') no-repeat;
+	background-size: 100%;
+	position: relative;
+	max-width: 588px;
+	margin: 0 auto;
+	height: 104px;
+	z-index: 9998;
+}
+.credit {cursor: default;}
+
+/* QRs */
+.qr {
+	width:100px;
+	height:100px;
+	margin:0 auto;
+}
+.qr-chat {background: url('/assets/img/qr/chat.png') no-repeat;}
+
+/* CHATROOM */
+iframe {
+	border:0;
+	width:100%;
+}
+.chat {
+	background-image: url('/assets/img/trim-left.png'), url('/assets/img/trim-right.png');
+	background-position: left top, right top;
+	background-repeat: repeat-y;
+	-webkit-box-shadow: 0 5px 15px rgba(9,9,9,.55);
+	-moz-box-shadow: 0 5px 15px rgba(9,9,9,.55);
+	box-shadow: 0 5px 15px rgba(9,9,9,.55);
+	border-bottom-color: #333;
+	max-width: 100% !important;
+	width: auto !important;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	padding: 0 9px 10px 9px;
+}
+.radioapp {
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+	height: 114px;
+}
+#tlkio {
+	width:100%;
+	height:500px;
+	margin-bottom: 10px;
+}
